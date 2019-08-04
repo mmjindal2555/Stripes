@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.objectdetection
+package com.stripes.ml.scanner.kotlin.objectdetection
 
 import android.graphics.RectF
 import android.util.Log
@@ -25,13 +25,13 @@ import com.google.firebase.ml.vision.common.FirebaseVisionImage
 import com.google.firebase.ml.vision.objects.FirebaseVisionObject
 import com.google.firebase.ml.vision.objects.FirebaseVisionObjectDetector
 import com.google.firebase.ml.vision.objects.FirebaseVisionObjectDetectorOptions
-import com.google.firebase.ml.md.kotlin.camera.CameraReticleAnimator
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.camera.WorkflowModel
-import com.google.firebase.ml.md.kotlin.camera.WorkflowModel.WorkflowState
-import com.google.firebase.ml.md.kotlin.camera.FrameProcessorBase
-import com.google.firebase.ml.md.kotlin.settings.PreferenceUtils
+import com.stripes.ml.scanner.kotlin.camera.CameraReticleAnimator
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.camera.WorkflowModel
+import com.stripes.ml.scanner.kotlin.camera.WorkflowModel.WorkflowState
+import com.stripes.ml.scanner.kotlin.camera.FrameProcessorBase
+import com.stripes.ml.scanner.kotlin.settings.PreferenceUtils
 import java.io.IOException
 import java.util.ArrayList
 

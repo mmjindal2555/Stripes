@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.objectdetection
+package com.stripes.ml.scanner.kotlin.objectdetection
 
 import android.animation.AnimatorSet
 import android.animation.ValueAnimator
 import androidx.core.view.animation.PathInterpolatorCompat
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
 
 /**
  * Custom animator for the object dot.

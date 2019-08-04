@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.camera
+package com.stripes.ml.scanner.kotlin.camera
 
 /** Metadata info of a camera frame.  */
 class FrameMetadata(val width: Int, val height: Int, val rotation: Int)

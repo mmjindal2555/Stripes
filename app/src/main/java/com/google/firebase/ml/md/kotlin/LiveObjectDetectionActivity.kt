@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin
+package com.stripes.ml.scanner.kotlin
 
 import android.animation.AnimatorInflater
 import android.animation.AnimatorSet
@@ -38,19 +38,19 @@ import com.google.android.material.chip.Chip
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
 import com.google.common.base.Objects
 import com.google.common.collect.ImmutableList
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
-import com.google.firebase.ml.md.kotlin.camera.WorkflowModel
-import com.google.firebase.ml.md.kotlin.camera.WorkflowModel.WorkflowState
-import com.google.firebase.ml.md.kotlin.camera.CameraSource
-import com.google.firebase.ml.md.kotlin.camera.CameraSourcePreview
-import com.google.firebase.ml.md.kotlin.objectdetection.MultiObjectProcessor
-import com.google.firebase.ml.md.kotlin.objectdetection.ProminentObjectProcessor
-import com.google.firebase.ml.md.kotlin.productsearch.BottomSheetScrimView
-import com.google.firebase.ml.md.kotlin.productsearch.ProductAdapter
-import com.google.firebase.ml.md.kotlin.productsearch.SearchEngine
-import com.google.firebase.ml.md.kotlin.settings.PreferenceUtils
-import com.google.firebase.ml.md.kotlin.settings.SettingsActivity
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.kotlin.camera.WorkflowModel
+import com.stripes.ml.scanner.kotlin.camera.WorkflowModel.WorkflowState
+import com.stripes.ml.scanner.kotlin.camera.CameraSource
+import com.stripes.ml.scanner.kotlin.camera.CameraSourcePreview
+import com.stripes.ml.scanner.kotlin.objectdetection.MultiObjectProcessor
+import com.stripes.ml.scanner.kotlin.objectdetection.ProminentObjectProcessor
+import com.stripes.ml.scanner.kotlin.productsearch.BottomSheetScrimView
+import com.stripes.ml.scanner.kotlin.productsearch.ProductAdapter
+import com.stripes.ml.scanner.kotlin.productsearch.SearchEngine
+import com.stripes.ml.scanner.kotlin.settings.PreferenceUtils
+import com.stripes.ml.scanner.kotlin.settings.SettingsActivity
 import java.io.IOException
 
 /** Demonstrates the object detection and visual search workflow using camera preview.  */

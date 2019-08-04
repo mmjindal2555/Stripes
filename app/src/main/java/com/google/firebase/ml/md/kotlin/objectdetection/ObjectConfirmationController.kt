@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.objectdetection
+package com.stripes.ml.scanner.kotlin.objectdetection
 
 import android.os.CountDownTimer
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
-import com.google.firebase.ml.md.kotlin.settings.PreferenceUtils
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.kotlin.settings.PreferenceUtils
 
 /**
  * Controls the progress of object confirmation before performing additional operation on the

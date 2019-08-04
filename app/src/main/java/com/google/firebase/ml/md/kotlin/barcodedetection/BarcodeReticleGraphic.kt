@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.barcodedetection
+package com.stripes.ml.scanner.kotlin.barcodedetection
 
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Paint.Style
 import android.graphics.RectF
 import androidx.core.content.ContextCompat
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.camera.CameraReticleAnimator
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.camera.CameraReticleAnimator
 
 /**
  * A camera reticle that locates at the center of canvas to indicate the system is active but has

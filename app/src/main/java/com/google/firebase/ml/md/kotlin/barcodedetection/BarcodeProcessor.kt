@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.barcodedetection
+package com.stripes.ml.scanner.kotlin.barcodedetection
 
 import android.animation.ValueAnimator
 import android.util.Log
 import androidx.annotation.MainThread
 import com.google.android.gms.tasks.Task
-import com.google.firebase.ml.md.kotlin.camera.CameraReticleAnimator
+import com.stripes.ml.scanner.kotlin.camera.CameraReticleAnimator
 import com.google.firebase.ml.vision.FirebaseVision
 import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode
 import com.google.firebase.ml.vision.common.FirebaseVisionImage
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
-import com.google.firebase.ml.md.kotlin.camera.WorkflowModel
-import com.google.firebase.ml.md.kotlin.camera.WorkflowModel.WorkflowState
-import com.google.firebase.ml.md.kotlin.camera.FrameProcessorBase
-import com.google.firebase.ml.md.kotlin.settings.PreferenceUtils
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.kotlin.camera.WorkflowModel
+import com.stripes.ml.scanner.kotlin.camera.WorkflowModel.WorkflowState
+import com.stripes.ml.scanner.kotlin.camera.FrameProcessorBase
+import com.stripes.ml.scanner.kotlin.settings.PreferenceUtils
 import java.io.IOException
 
 /** A processor to run the barcode detector.  */

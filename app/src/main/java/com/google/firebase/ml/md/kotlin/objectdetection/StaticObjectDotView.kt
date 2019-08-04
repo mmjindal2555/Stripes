@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.objectdetection
+package com.stripes.ml.scanner.kotlin.objectdetection
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -23,7 +23,7 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.view.View
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import com.google.firebase.ml.md.R
+import com.stripes.ml.scanner.R
 
 /** Represents a detected object by drawing a circle dot at the center of object's bounding box.  */
 class StaticObjectDotView @JvmOverloads constructor(context: Context, selected: Boolean = false) : View(context) {

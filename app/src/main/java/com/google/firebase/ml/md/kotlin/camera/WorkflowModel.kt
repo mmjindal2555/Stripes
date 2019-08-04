@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.camera
+package com.stripes.ml.scanner.kotlin.camera
 
 import android.app.Application
 import android.content.Context
@@ -22,10 +22,10 @@ import androidx.annotation.MainThread
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode
-import com.google.firebase.ml.md.kotlin.objectdetection.DetectedObject
-import com.google.firebase.ml.md.kotlin.productsearch.Product
-import com.google.firebase.ml.md.kotlin.productsearch.SearchedObject
-import com.google.firebase.ml.md.kotlin.settings.PreferenceUtils
+import com.stripes.ml.scanner.kotlin.objectdetection.DetectedObject
+import com.stripes.ml.scanner.kotlin.productsearch.Product
+import com.stripes.ml.scanner.kotlin.productsearch.SearchedObject
+import com.stripes.ml.scanner.kotlin.settings.PreferenceUtils
 import java.util.HashSet
 
 /** View model for handling application workflow based on camera preview.  */

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin
+package com.stripes.ml.scanner.kotlin
 
 import androidx.core.content.ContextCompat.checkSelfPermission
 
@@ -37,7 +37,7 @@ import android.net.Uri
 import android.util.Log
 import androidx.core.app.ActivityCompat
 import androidx.exifinterface.media.ExifInterface
-import com.google.firebase.ml.md.kotlin.camera.CameraSizePair
+import com.stripes.ml.scanner.kotlin.camera.CameraSizePair
 import java.io.IOException
 import java.io.InputStream
 import java.util.ArrayList

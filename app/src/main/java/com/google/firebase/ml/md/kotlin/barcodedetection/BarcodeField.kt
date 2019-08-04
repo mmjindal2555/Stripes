@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.barcodedetection
+package com.stripes.ml.scanner.kotlin.barcodedetection
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin
+package com.stripes.ml.scanner.kotlin
 
 import android.app.Activity
 import android.content.Intent
@@ -27,7 +27,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.ml.md.R
+import com.stripes.ml.scanner.R
 
 /** Entry activity to select the detection mode.  */
 class MainActivity : AppCompatActivity() {

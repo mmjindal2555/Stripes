@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.barcodedetection
+package com.stripes.ml.scanner.kotlin.barcodedetection
 
 import android.graphics.Canvas
 import android.graphics.Path
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
-import com.google.firebase.ml.md.kotlin.settings.PreferenceUtils
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.kotlin.settings.PreferenceUtils
 import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode
 
 /** Guides user to move camera closer to confirm the detected barcode.  */

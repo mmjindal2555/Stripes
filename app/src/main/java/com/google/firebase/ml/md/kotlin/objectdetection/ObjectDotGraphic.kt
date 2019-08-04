@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.objectdetection
+package com.stripes.ml.scanner.kotlin.objectdetection
 
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Paint.Style
 import android.graphics.PointF
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay.Graphic
-import com.google.firebase.ml.md.R
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay.Graphic
+import com.stripes.ml.scanner.R
 
 /** A dot to indicate a detected object used by multiple objects detection mode.  */
 internal class ObjectDotGraphic(

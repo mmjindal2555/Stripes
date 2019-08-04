@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.objectdetection
+package com.stripes.ml.scanner.kotlin.objectdetection
 
 import android.graphics.Canvas
 import android.graphics.Paint
@@ -22,10 +22,10 @@ import android.graphics.Paint.Cap
 import android.graphics.Paint.Style
 import android.graphics.RectF
 import androidx.core.content.ContextCompat
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay.Graphic
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.settings.PreferenceUtils
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay.Graphic
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.settings.PreferenceUtils
 
 /**
  * Similar to the camera reticle but with additional progress ring to indicate an object is getting

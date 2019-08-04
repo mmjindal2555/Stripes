@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.productsearch
+package com.stripes.ml.scanner.kotlin.productsearch
 
 import android.content.res.Resources
 import android.graphics.Bitmap
 import android.graphics.Rect
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.Utils
-import com.google.firebase.ml.md.kotlin.objectdetection.DetectedObject
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.Utils
+import com.stripes.ml.scanner.kotlin.objectdetection.DetectedObject
 
 /** Hosts the detected object info and its search result.  */
 class SearchedObject(resources: Resources, private val detectedObject: DetectedObject, val productList: List<Product>) {

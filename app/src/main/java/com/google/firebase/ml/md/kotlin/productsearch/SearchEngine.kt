@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.productsearch
+package com.stripes.ml.scanner.kotlin.productsearch
 
 import android.content.Context
 import android.util.Log
@@ -22,7 +22,7 @@ import com.android.volley.RequestQueue
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
 import com.google.android.gms.tasks.Tasks
-import com.google.firebase.ml.md.kotlin.objectdetection.DetectedObject
+import com.stripes.ml.scanner.kotlin.objectdetection.DetectedObject
 import java.util.ArrayList
 import java.util.concurrent.Callable
 import java.util.concurrent.ExecutorService

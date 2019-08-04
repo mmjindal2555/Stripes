@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.settings
+package com.stripes.ml.scanner.kotlin.settings
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.google.firebase.ml.md.R
+import com.stripes.ml.scanner.R
 
 /** Hosts the preference fragment to configure settings.  */
 class SettingsActivity : AppCompatActivity() {

@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.google.firebase.ml.md"
+        applicationId "com.stripes.ml.scanner"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1

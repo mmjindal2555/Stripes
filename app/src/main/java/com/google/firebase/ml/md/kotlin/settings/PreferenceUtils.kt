@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.settings
+package com.stripes.ml.scanner.kotlin.settings
 
 import android.content.Context
 import android.graphics.RectF
 import android.preference.PreferenceManager
 import androidx.annotation.StringRes
 import com.google.android.gms.common.images.Size
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.camera.CameraSizePair
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.camera.CameraSizePair
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
 import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode
 
 /** Utility class to retrieve shared preferences.  */

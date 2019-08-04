@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.productsearch
+package com.stripes.ml.scanner.kotlin.productsearch
 
 import android.text.TextUtils
 import android.view.LayoutInflater
@@ -23,7 +23,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.ml.md.R
+import com.stripes.ml.scanner.R
 
 /** Powers the bottom card carousel for displaying the preview of product search result.  */
 class PreviewCardAdapter(

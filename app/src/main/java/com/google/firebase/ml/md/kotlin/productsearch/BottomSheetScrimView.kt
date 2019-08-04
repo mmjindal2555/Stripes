@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.productsearch
+package com.stripes.ml.scanner.kotlin.productsearch
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -26,7 +26,7 @@ import android.util.AttributeSet
 import android.view.View
 import androidx.core.content.ContextCompat
 import com.google.common.base.Preconditions.checkArgument
-import com.google.firebase.ml.md.R
+import com.stripes.ml.scanner.R
 
 /** Draws the scrim of bottom sheet with object thumbnail highlighted.  */
 class BottomSheetScrimView(context: Context, attrs: AttributeSet) : View(context, attrs) {

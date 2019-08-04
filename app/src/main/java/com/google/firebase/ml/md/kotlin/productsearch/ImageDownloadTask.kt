@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.productsearch
+package com.stripes.ml.scanner.kotlin.productsearch
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

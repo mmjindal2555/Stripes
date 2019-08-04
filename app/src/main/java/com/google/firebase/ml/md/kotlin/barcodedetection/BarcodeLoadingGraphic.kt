@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.barcodedetection
+package com.stripes.ml.scanner.kotlin.barcodedetection
 
 import android.animation.ValueAnimator
 import android.graphics.Canvas
 import android.graphics.Path
 import android.graphics.Point
 import android.graphics.PointF
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
 
 /** Draws the graphic to indicate the barcode result is in loading.  */
 internal class BarcodeLoadingGraphic(overlay: GraphicOverlay, private val loadingAnimator: ValueAnimator) :

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.settings
+package com.stripes.ml.scanner.kotlin.settings
 
 import android.hardware.Camera
 import android.os.Bundle
 import androidx.preference.ListPreference
 import androidx.preference.PreferenceFragmentCompat
-import com.google.firebase.ml.md.kotlin.camera.CameraSource
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.Utils
+import com.stripes.ml.scanner.kotlin.camera.CameraSource
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.Utils
 import java.util.HashMap
 
 /** Configures App settings.  */

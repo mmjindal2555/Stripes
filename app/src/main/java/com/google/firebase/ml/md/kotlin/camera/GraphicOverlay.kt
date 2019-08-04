@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.camera
+package com.stripes.ml.scanner.kotlin.camera
 
 import android.content.Context
 import android.graphics.Canvas
@@ -22,7 +22,7 @@ import android.graphics.Rect
 import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.View
-import com.google.firebase.ml.md.kotlin.Utils
+import com.stripes.ml.scanner.kotlin.Utils
 import java.util.ArrayList
 
 /**

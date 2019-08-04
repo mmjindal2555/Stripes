@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.camera
+package com.stripes.ml.scanner.kotlin.camera
 
 import android.content.Context
 import android.graphics.ImageFormat
@@ -26,9 +26,9 @@ import android.view.Surface
 import android.view.SurfaceHolder
 import android.view.WindowManager
 import com.google.android.gms.common.images.Size
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.Utils
-import com.google.firebase.ml.md.kotlin.settings.PreferenceUtils
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.Utils
+import com.stripes.ml.scanner.kotlin.settings.PreferenceUtils
 import com.google.firebase.ml.vision.common.FirebaseVisionImageMetadata
 import java.io.IOException
 import java.nio.ByteBuffer

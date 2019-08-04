@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.barcodedetection
+package com.stripes.ml.scanner.kotlin.barcodedetection
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -27,9 +27,9 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.camera.WorkflowModel
-import com.google.firebase.ml.md.kotlin.camera.WorkflowModel.WorkflowState
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.camera.WorkflowModel
+import com.stripes.ml.scanner.kotlin.camera.WorkflowModel.WorkflowState
 
 /** Displays the bottom sheet to present barcode fields contained in the detected barcode.  */
 class BarcodeResultFragment : BottomSheetDialogFragment() {

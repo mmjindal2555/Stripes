@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.productsearch
+package com.stripes.ml.scanner.kotlin.productsearch
 
 /** Information about a product.  */
 data class Product internal constructor(val imageUrl: String, val title: String, val subtitle: String)

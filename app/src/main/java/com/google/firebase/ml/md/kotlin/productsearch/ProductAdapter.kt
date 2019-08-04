@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.productsearch
+package com.stripes.ml.scanner.kotlin.productsearch
 
 import android.text.TextUtils
 import android.view.LayoutInflater
@@ -24,8 +24,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.Adapter
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.productsearch.ProductAdapter.ProductViewHolder
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.productsearch.ProductAdapter.ProductViewHolder
 
 /** Presents the list of product items from cloud product search.  */
 class ProductAdapter(private val productList: List<Product>) : Adapter<ProductViewHolder>() {

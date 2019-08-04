@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin
+package com.stripes.ml.scanner.kotlin
 
 import android.animation.AnimatorInflater
 import android.animation.AnimatorSet
@@ -40,20 +40,20 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.chip.Chip
 import com.google.common.collect.ImmutableList
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.productsearch.BottomSheetScrimView
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.productsearch.BottomSheetScrimView
 import com.google.firebase.ml.vision.FirebaseVision
 import com.google.firebase.ml.vision.common.FirebaseVisionImage
 import com.google.firebase.ml.vision.objects.FirebaseVisionObject
 import com.google.firebase.ml.vision.objects.FirebaseVisionObjectDetector
 import com.google.firebase.ml.vision.objects.FirebaseVisionObjectDetectorOptions
-import com.google.firebase.ml.md.kotlin.objectdetection.DetectedObject
-import com.google.firebase.ml.md.kotlin.objectdetection.StaticObjectDotView
-import com.google.firebase.ml.md.kotlin.productsearch.PreviewCardAdapter
-import com.google.firebase.ml.md.kotlin.productsearch.Product
-import com.google.firebase.ml.md.kotlin.productsearch.ProductAdapter
-import com.google.firebase.ml.md.kotlin.productsearch.SearchEngine
-import com.google.firebase.ml.md.kotlin.productsearch.SearchedObject
+import com.stripes.ml.scanner.kotlin.objectdetection.DetectedObject
+import com.stripes.ml.scanner.kotlin.objectdetection.StaticObjectDotView
+import com.stripes.ml.scanner.kotlin.productsearch.PreviewCardAdapter
+import com.stripes.ml.scanner.kotlin.productsearch.Product
+import com.stripes.ml.scanner.kotlin.productsearch.ProductAdapter
+import com.stripes.ml.scanner.kotlin.productsearch.SearchEngine
+import com.stripes.ml.scanner.kotlin.productsearch.SearchedObject
 import java.io.IOException
 import java.lang.NullPointerException
 import java.util.TreeMap

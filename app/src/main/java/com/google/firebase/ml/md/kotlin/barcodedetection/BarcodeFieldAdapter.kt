@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.barcodedetection
+package com.stripes.ml.scanner.kotlin.barcodedetection
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.ml.md.R
-import com.google.firebase.ml.md.kotlin.barcodedetection.BarcodeFieldAdapter.BarcodeFieldViewHolder
+import com.stripes.ml.scanner.R
+import com.stripes.ml.scanner.kotlin.barcodedetection.BarcodeFieldAdapter.BarcodeFieldViewHolder
 
 /** Presents a list of field info in the detected barcode.  */
 internal class BarcodeFieldAdapter(private val barcodeFieldList: List<BarcodeField>) :

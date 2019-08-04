@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.ml.md.kotlin.objectdetection
+package com.stripes.ml.scanner.kotlin.objectdetection
 
 import android.graphics.Canvas
 import android.graphics.Color
@@ -27,9 +27,9 @@ import android.graphics.Shader.TileMode
 import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
 import com.google.firebase.ml.vision.objects.FirebaseVisionObject
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay
-import com.google.firebase.ml.md.kotlin.camera.GraphicOverlay.Graphic
-import com.google.firebase.ml.md.R
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay
+import com.stripes.ml.scanner.kotlin.camera.GraphicOverlay.Graphic
+import com.stripes.ml.scanner.R
 
 /**
  * Draws the detected visionObject info over the camera preview for prominent visionObject detection mode.
